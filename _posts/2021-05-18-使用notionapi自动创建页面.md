@@ -19,11 +19,11 @@ It is never too late to be what you might have been.
 
 [Notion - The all-in-one workspace for your notes, tasks, wikis, and databases.](https://www.notion.so/my-integrations)
 
-![assets/createnotionintertaion.gif](assets/createnotionintertaion.gif)
+![createnotionintertaion.gif](../assets/createnotionintertaion.gif)
 
 2. 将需要自动创建页面的Notion workspace分享给Notion机器人
 
-![assets/sharetointegration.gif](assets/sharetointegration.gif)
+![sharetointegration-robot.gif](../assets/sharetointegration-robot.gif)
 
 3. 获取页面的DatabaseID
 
@@ -31,9 +31,9 @@ It is never too late to be what you might have been.
 
     [https://www.notion.so/485bb239e154448a85bfe8f262eaccac?v=11ef1ae0a3ba472a9c5165223b8697c3](https://www.notion.so/485bb239e154448a85bfe8f262eaccac?v=11ef1ae0a3ba472a9c5165223b8697c3) 则 DatabaseID为[485bb239-e154-448a-85bf-e8f262eaccac](https://www.notion.so/485bb239e154448a85bfe8f262eaccac?v=11ef1ae0a3ba472a9c5165223b8697c3)
 
-![assets/sharetointegration%201.gif](assets/sharetointegration%201.gif)
+![sharetointegration.gif](../assets/sharetointegration.gif)
 
-2. 通过API查询
+1. 通过API查询
 
 ```bash
 # $NOTION_API_KEY为第一步创建Notion的secret
